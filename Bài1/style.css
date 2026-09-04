@@ -3,48 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     color: #333;
 }
-
 header {
     background-color: #4CAF50;
     color: white;
     text-align: center;
     padding: 20px;
 }
-
 nav {
     background-color: #333;
     text-align: center;
     padding: 10px;
 }
-
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
 }
-
 nav a:hover {
     text-decoration: underline;
 }
-
 main {
     padding: 30px;
     text-align: center;
 }
-
 #greeting {
     font-size: 20px;
     color: #4CAF50;
     margin-bottom: 15px;
     font-weight: bold;
 }
-
 .about-section, .contact-section {
     text-align: left;
     margin: 30px auto;
@@ -54,18 +46,15 @@ main {
     padding: 25px;
     background-color: #f9f9f9;
 }
-
 .about-section h2, .contact-section h2 {
     text-align: center;
     color: #4CAF50;
     margin-bottom: 20px;
 }
-
 .about-content {
     display: flex;
     gap: 25px;
 }
-
 .about-image img {
     width: 180px;
     height: 230px;
@@ -74,36 +63,29 @@ main {
     border-radius: 6px;
     border: 3px solid #4CAF50;
 }
-
 .about-info table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 15px;
 }
-
 .about-info table th, .about-info table td {
     padding: 8px 12px;
     text-align: left;
     border-bottom: 1px solid #eee;
 }
-
 .about-info table th {
     color: #4CAF50;
     width: 130px;
 }
-
 .bio {
     font-size: 14px;
     line-height: 1.7;
     color: #555;
 }
-
 .bio strong { color: #4CAF50; }
-
 .contact-section a {
     color: #4CAF50;
 }
-
 #toggle-btn {
     margin-top: 20px;
     padding: 10px 25px;
@@ -114,32 +96,26 @@ main {
     border-radius: 5px;
     cursor: pointer;
 }
-
 #toggle-btn:hover {
     background-color: #388E3C;
 }
-
 .dark-mode {
     background-color: #222;
     color: #eee;
 }
-
 .dark-mode .about-section,
 .dark-mode .contact-section {
     background-color: #333;
     border-color: #555;
 }
-
 .dark-mode .about-info table td,
 .dark-mode .bio,
 .dark-mode .contact-section p {
     color: #ddd;
 }
-
 .dark-mode .contact-section a {
     color: #66BB6A;
 }
-
 footer {
     background-color: #333;
     color: white;
